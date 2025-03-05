@@ -1,0 +1,12 @@
+panjang = float(input("masukkan panjang balok : "))
+lebar = float(input("masukkan lebar balok : "))
+tinggi = float(input("masukkan tinggi balok : "))
+
+keliling = 4 * (panjang + lebar + tinggi)
+luas = 2 * (panjang * lebar + tinggi * tinggi + lebar * tinggi)
+volume = panjang * lebar * tinggi
+
+
+print (f"keliling balok = {keliling}")
+print (f"luas permukaan balok = {luas}")
+print (f"volume balok = {volume}")
