@@ -1,0 +1,11 @@
+sisi = float(input("masukkan sisi kubus : "))
+
+keliling = 12 * sisi
+
+luas = 6 * (sisi ** 2)
+
+volume = sisi ** 3
+
+print (f"keliling kubus = {keliling}")
+print (f"luas sisi kubus = {luas}")
+print (f"volume kubus = {volume}")
